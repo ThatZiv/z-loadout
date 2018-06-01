@@ -69,7 +69,7 @@ local localPed = PlayerId()
         giveWeapon("WEAPON_CROWBAR")
         notify("~r~~h~Prisoner~h~~w~ Loadout Loaded.")
     end, false)
-    TriggerEvent('chat:addSuggestion', '/prisoner', 'Loads the Convict loadout')
+    TriggerEvent('chat:addSuggestion', '/prisoner', 'Loads the Prisoner loadout')
     
     
     RegisterCommand('removeall', function() -- Terbium's Idea
