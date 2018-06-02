@@ -2,11 +2,17 @@
 
 z-loadout is a resource that allows players to select player classes as 'kits' with no advanced configuration.
 ![alt-text](https://raw.githubusercontent.com/ThatZiv/z-loadout/master/unknown.png)
-# Features 
-  - City Cop: **Carbine Rifle**, **Combat Pistol**, **Pump Shotgun**, **Flares, and a tazer**.
-  - City Cop: **Carbine Rifle**, **Pistol 50**, **Pump Shotgun**, **Flares, and a tazer**.
+# Features (Guns with attachments too) 
+  - City Cop: **Carbine Rifle (scope, flash, grip)**, **Combat Pistol (flash)**, **Pump Shotgun (flash)**, **Flares, Flashlight, and a tazer**.
+  - Sheriff Cop: **Carbine Rifle (ext. mag)**, **Pistol 50**, **Pump Shotgun (flashlight)**, **Flares, Flashlight, and a tazer**.
+  - EMS: **Tazer, flashlight, and switchblade**
+  - SWAT: **Combat Pistol (flash), Carbine Rifle (scope, flash, grip), Special Rifle (scope, flash, grip, drum mag), Assault Shotgun (drum mag, flash, grip), flares, Pump Shotgun (Flash), Flashlight, Full Armour**
+  - Secret Agent: **Combat Pistol (all attachments), Heavy Pistol (all attachments), Marksman Rifle (all attachments)**
+  - Security: **Pisol .50 (ext. mag, skin mod), Pump Shotgun, Flashlight**
+  - Bouncer: **Pistol .50 (ext. mag, skin mod), Micro SMG, Flashlight**
   - Street Thug: **Pistol and Micro SMG**.
   - Prisoner: **Pistol (9 rounds only) and Melee weapons**.
+  - Mechanic: **Pistol, Flashlight, Hammer, Crowbar.**
 
 
 
@@ -21,14 +27,19 @@ z-loadout is a resource that allows players to select player classes as 'kits' w
 | ------ | ------ |
 | City Cop | `/cop` |
 | Sheriff | `/sheriff` |
+| EMS | `/ems` |
+| SWAT | `/swat` |
+| Secret Agent | `/agent` |
 | Street Thug | `/thug` |
-| Prisoner | `/prisoner` |
+| Bouncer | `/bouncer` |
+| Mechanic | `/mechanic` |
+| Security | `/security` |
 
 #### Extra Chat Commands
 
 | Class | Usage |
 | ------ | ------ |
-| Remove all weapons | `/removeall` |
+| Remove All Weapons | `/removeall` |
 | Resets Ped | `/clear` |
 
 ### Support
