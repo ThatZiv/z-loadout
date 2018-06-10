@@ -25,11 +25,11 @@ z-loadout is a resource that allows players to select player classes as 'kits' w
 ### Menu Controls
 | Funtion | Usage |
 | ------ | ------ |
-| Open Menu | L | 
-| Down Nav | ↓ |
-| Up Nav | ↑ |
-| Right Nav | → |
-| Down Nav | ← |
+| Open Menu | `L` | 
+| Down Nav | `↓` |
+| Up Nav | `↑` |
+| Right Nav | `→` |
+| Down Nav | `←` |
 
 ### Chat Commands
 | Class | Usage |
