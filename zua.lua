@@ -202,11 +202,6 @@ local localPed = PlayerId()
 
 -- Warmenu Code 
 Citizen.CreateThread(function()
-	local items = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }
-	local currentItemIndex = 1
-	local selectedItemIndex = 1
-	local checkbox = true
-
     WarMenu.CreateMenu('loadout', 'Loadouts')
     WarMenu.SetTitleBackgroundColor('loadout', 75, 75, 75, 255)
 	  WarMenu.CreateSubMenu('closeMenu', 'loadout', 'Are you sure?')
