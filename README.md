@@ -16,14 +16,15 @@ z-loadout is a resource that allows players to select player classes as 'kits' w
   - Prisoner: **Pistol (9 rounds only) and Melee weapons**.
   - Mechanic: **Pistol, Flashlight, Hammer, Crowbar.**
 
-
 ### Installation
 1. Download [Here](https://github.com/ThatZiv/z-loadout).
 2. Put the **z-loadout** folder into your **resources** folder 
-3. Add `start z-loadout` into **server.cfg** 
+3. Download [warmenu](https://forum.fivem.net/t/release-0-9-7-final-warmenu-lua-menu-framework/41249) by @Warxander 
+4. put the **warmenu** folder into your **resources folder**
+3. Add `start warmenu` and `start z-loadout` into your **server.cfg** 
 
 ### Menu Controls
-| Funtion | Usage |
+| Function | Usage |
 | ------ | ------ |
 | Open Menu | `L` | 
 | Down Nav | `↓` |
