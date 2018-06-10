@@ -186,6 +186,20 @@ local localPed = PlayerId()
     end, false)
     TriggerEvent('chat:addSuggestion', '/fire', 'Loads the Firefighter loadout')
 
+ RegisterCommand('removeall', function() -- Terbium's Idea
+        RemoveAllPedWeapons(myPed, true)
+        notify("~g~All Guns Removed")
+    end, false)
+    TriggerEvent('chat:addSuggestion', '/removeall', 'Removes all weapons')
+
+    --  Clears the model and weapons here
+    RegisterCommand('clear', function()
+        loadModel("A_M_M_BevHills_02")
+        RemoveAllPedWeapons(myPed, true)
+        notify("~g~Cleared.")
+    end, false)
+    TriggerEvent('chat:addSuggestion', '/clear', 'Cleares Player Model and Weapons')
+
 -- Warmenu Code 
 Citizen.CreateThread(function()
 	local items = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" }
