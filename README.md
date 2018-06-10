@@ -30,7 +30,7 @@ z-loadout is a resource that allows players to select player classes as 'kits' w
 | Down Nav | `↓` |
 | Up Nav | `↑` |
 | Right Nav | `→` |
-| Down Nav | `←` |
+| Left Nav | `←` |
 | Select | `ENTER` |
 | Close | `BACKSPACE` |
 
