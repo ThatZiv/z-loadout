@@ -177,6 +177,17 @@ local localPed = PlayerId()
     end, false)
     TriggerEvent('chat:addSuggestion', '/mechanic', 'Loads the Mechanic loadout')
     
+    RegisterCommand('fire', function()
+        loadModel('S_M_Y_Fireman_01')
+        giveWeapon('WEAPON_FIREEXTINGUISHER')
+        giveWeapon('WEAPON_HATCHET')
+        giveWeapon('WEAPON_FLASHLIGHT')
+        giveWeapon('WEAPON_FLARE')
+        giveWeapon('WEAPON_CROWBAR')
+    end, false)
+    TriggerEvent('chat:addSuggestion', '/fire', 'Loads the Firefighter loadout')
+
+    
     RegisterCommand('removeall', function() -- Terbium's Idea
         RemoveAllPedWeapons(myPed, true)
         notify("~g~All Guns Removed")
